@@ -149,8 +149,8 @@ void PestoLinkParser::printToTerminal(const char *text){
       } else {
           // If we're out of characters, set the rest to null (0)
           for(;i<64;i++){
-	      result[i] = 0;
-	  }
+	          result[i] = 0;
+	      }
       }
   }
   
